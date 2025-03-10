@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stock Price Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Stock Price Tracker</h1>
+    <div class="search-box">
+      <input type="text" id="stockSymbol" placeholder="Enter stock symbol (e.g., AAPL)">
+      <button id="searchBtn">Get Price</button>
+    </div>
+    <div id="stockData">
+      <!-- Stock data will be displayed here -->
+    </div>
+  </div>
+
+  <div class="container">
+    <h1>Stock Symbols</h1>
+    <table id="stockTable">
+      <thead>
+        <tr>
+          <th>Company Name</th>
+          <th>Stock Symbol</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Apple Inc.</td> <td>AAPL</td></tr>
+        <tr><td>Microsoft Corporation</td> <td>MSFT</td></tr>
+        <tr><td>Google (Alphabet Inc.)</td> <td>GOOGL</td></tr>
+        <tr><td>Amazon.com Inc.</td> <td>AMZN</td></tr>
+        <tr><td>Tesla Inc.</td> <td>TSLA</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script src="index2.js"></script>
+</body>
+</html>
